@@ -1,4 +1,4 @@
-# crowipmodule
+# Home Assistant Crow IP Module
 For Crow Runner 8/16 with IP Module and special Firmware running via SSH
 Running in Home Assistant Version 0.113 and higer
 
