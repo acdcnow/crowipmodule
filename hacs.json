@@ -1,0 +1,8 @@
+{
+  "name": "Crow Ip Runner 16 IP Connect for HA",
+  "iot_class": "Cloud Polling",
+  "homeassistant": "0.113.0",
+  "hide_default_branch": true,
+  "zip_release": true,
+  "filename": "crowipmodule.zip"
+}
