@@ -1,14 +1,25 @@
+In order to get that module running you must ensure that the deconditions are fulfilled.
+
+So the first one:
+Running a Alarm System as Runner 8/16
+Connected to that system an IP Module running Firmware Ver 2.10.3628 2017 Oct 20 09:48:43
+Not connected ANY SSH connection to SSH port 5002
+
+Running Home Assistant higer then Version 0.113
+
+An setup example is given below
+
 crowipmodule:
-  host: 10.0.0.99
+  host: 10.0.0.xx ( any IP adress it is recommanted to set a static IP adress)
   port: 5002
   keepalive_interval: 60
   timeout: 20
   areas:
     1:
-      name: 'Home'
+      name: 'Home'  (Name it you like)
     2:
       name: 'None'
-      code: '1234'
+      code: '1234'  (Keypad Arm and Disarm Code (User code))
   outputs:
     3:
       name: 'Main Router'
