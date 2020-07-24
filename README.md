@@ -9,12 +9,12 @@ The standard firmware from Crow or AAP will NOT work!!
 configuration settings see configruation.YAML setup
 
 Changelog:
-v.0.26 TODO (NOT DONE YET)
+v.0.27 TODO (NOT DONE YET)
 - When connection goes off; change all entities to 'unavailable'.
 - When HA restarts; update all entities just after the connection is established.
 - Check network disconnects real-time.
 
-v.0.25.A
+v.0.26
 - SwitchDevice, BinarySensorDevice and AlarmControlPanel is deprecated, 
 - modify to extend SwitchEntity, BinarySensorEntity and AlarmControlPanelEntity
 - Add the respository to HACS
