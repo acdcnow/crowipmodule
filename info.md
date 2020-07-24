@@ -10,6 +10,7 @@ Running Home Assistant higer then Version 0.113
 
 An setup example is given below
 
+```
 crowipmodule:
   host: 10.0.0.xx ( any IP adress it is recommanted to set a static IP adress)
   port: 5002
@@ -75,4 +76,4 @@ crowipmodule:
     16:
       name: 'Exit Wireless'
       type: 'door'
-
+```
