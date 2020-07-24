@@ -2,7 +2,7 @@
     "domain": "crowipmodule",
     "name": "Crow/AAP Alarm IP Module",
     "documentation": "https://github.com/acdcnow/crowipmodule",
-    "requirements": ["pycrowipmodule==0.25"],    
+    "requirements": ["pycrowipmodule==0.26"],    
     "dependencies": [],
     "codeowners": []
 }
