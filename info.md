@@ -3,7 +3,8 @@ In order to get that module running you must ensure that the deconditions are fu
 So the first one:
 Running a Alarm System as Runner 8/16
 Connected to that system an IP Module running Firmware Ver 2.10.3628 2017 Oct 20 09:48:43
-Not connected ANY SSH connection to SSH port 5002
+Not connected ANY SSH connection (Firmware support just a single connection ) to SSH port 5002
+WebUi can be reached with IP adress that is given in the first Bootup via DHCP Serer
 
 Running Home Assistant higer then Version 0.113
 
