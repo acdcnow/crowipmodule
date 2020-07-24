@@ -74,3 +74,4 @@ crowipmodule:
     16:
       name: 'Exit Wireless'
       type: 'door'
+
