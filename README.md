@@ -1,5 +1,5 @@
 # crowipmodule
-For Crow Runner 16 with IP Module and special Firmware running via SSH
+For Crow Runner 8/16 with IP Module and special Firmware running via SSH
 Running in Home Assistant Version 0.113 and higer
 
 Ensure that your Crow Runner IP Module is running the correct firmware.
@@ -37,12 +37,3 @@ v.0.22
 - If 'code' configuration is missing in configuration.yaml, then keypad is on in Alarm Panel.
 - 'code' configuration is moved to 'areas' section for area specific code.
 - Corrected some errors.
-
-
-
-
-
-
-
-
-
