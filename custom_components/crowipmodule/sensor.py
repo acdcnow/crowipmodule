@@ -1,4 +1,4 @@
-"""Support for Crow Runner 16 IP Module sensors (shows panel info)."""
+"""Support for Crow IP Module sensors (shows panel info)."""
 import logging
 
 from homeassistant.core import callback
