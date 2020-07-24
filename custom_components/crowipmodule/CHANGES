@@ -26,3 +26,4 @@ v.0.26 TODO (NOT DONE YET)
 - When HA restarts; update all entities just after the connection is established.
 - Check network disconnects real-time.
 - Add the respository to HACS
+
