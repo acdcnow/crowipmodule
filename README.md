@@ -6,12 +6,13 @@ Ensure that your Crow Runner IP Module is running the correct firmware.
 The standard firmware from Crow or AAP will NOT work with this version!!
 
 In order to get that module running you must ensure that the deconditions are fulfilled:
-That will be: Running a Alarm System as Runner 8/16 Connected to that an IP Module running Firmware Ver 2.10.3628 2017 Oct 20 09:48:43 
-Not having ANY SSH connection active that that IP Module (Firmware support just a single connection ) to SSH port 5002. 
-WebUi can be reached with IP adress that is given in the first Bootup via DHCP Server.
-Set the IP adress to static in order to keep a fixed IP adress at any time.
-
-Running Home Assistant higer then version 0.110
+That will be: 
+- running a Alarm System as Runner 8/16 Connected to that an IP Module 
+- running Firmware Ver 2.10.3628 2017 Oct 20 09:48:43 
+- not having ANY SSH connection active to that IP Module (Firmware support just a single connection ) to SSH port 5002. 
+- WebUi can be reached with IP adress that is given in the first Bootup via DHCP Server.
+- set the IP adress to static in order to keep a fixed IP adress at any time.
+- running home assistant higher then version 0.110 (lower once are not support)
 
 An setup example is given below:
 
