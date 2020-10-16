@@ -4,6 +4,7 @@
     "documentation": "https://github.com/acdcnow/crowipmodule",
     "requirements": [
         "pycrowipmodule==0.25"
+        # adjust to 0.26 needed for chrome?
       ],    
     "dependencies": [],
     "codeowners": [
