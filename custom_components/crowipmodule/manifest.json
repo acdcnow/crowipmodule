@@ -3,7 +3,7 @@
     "name": "Crow Runner 8/16 Alarm IP Module",
     "documentation": "https://github.com/acdcnow/crowipmodule",
     "requirements": [
-        "pycrowipmodule==0.25"
+        "pycrowipmodule==0.27"
       ],    
     "dependencies": [],
     "codeowners": [
