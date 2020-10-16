@@ -1,23 +1,24 @@
 crowipmodule:
-  host: xxx.xxx.xxx.xxx --> 192.168.0.1 
-  port: 5002 --> standardport
+  host: 192.168.0.13 
+  port: 5002 
   keepalive_interval: 60
   timeout: 20
   areas:
     1:
-      name: 'Home' --> your own name
+      name: 'Home'
+      code: '1234'
     2:
-      name: 'None'  --> your own name
-      code: '1234' --> your code is needed here
+      name: 'None'  
+      code: '1234' 
   outputs:
     3:
-      name: 'Main Router'  --> your own name
+      name: 'Main Router'
     4:
-      name: 'USV Restart'  --> your own name
+      name: 'USV Restart'
   zones:
-    1: --> up to 8 or 16 zones bases on your used Crow alarm system mainboard
-      name: 'Entrance'  --> your own name
-      type: 'motion'  --> your own type (motion,door, window)
+    1:
+      name: 'Entrance'
+      type: 'motion'
     2:
       name: 'Terrace'
       type: 'door'
