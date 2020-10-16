@@ -1,6 +1,6 @@
 # Home Assistant Crow IP Module
 For Crow Runner 8/16 with IP Module and special Firmware running via SSH
-Running in Home Assistant Version 0.113 and higer
+Running in Home Assistant Version 0.110 and higer
 
 Ensure that your Crow Runner IP Module is running the correct firmware.
 The standard firmware from Crow or AAP will NOT work with this version!!
@@ -24,19 +24,20 @@ crowipmodule:
   timeout: 20
   areas:
     1:
-      name: 'Home'  (Name it you like)
+      name: 'Home'  (Name it like you want)
+      code: '1234'  (Keypad Arm and Disarm Code (User code))
     2:
       name: 'None'
       code: '1234'  (Keypad Arm and Disarm Code (User code))
   outputs:
     3:
-      name: 'Main Router' (Switch one)
+      name: 'Main Router' (Switch one) (Name it like you want)
     4:
-      name: 'USV Restart' (Switch two)
+      name: 'USV Restart' (Switch two) (Name it like you want)
   zones:
-    1:
-      name: 'Entrance'
-      type: 'motion'
+    1: (depends on the Crow base board and used zones=
+      name: 'Entrance' (Name it like you want)
+      type: 'motion'  (suported type are motion, door, window)
     2:
       name: 'Terrace'
       type: 'door'
@@ -87,10 +88,13 @@ crowipmodule:
 
 
 Changelog:
-v.0.27 TODO (NOT DONE YET)
+v.0.28 TODO (NOT DONE YET)
 - When connection goes off; change all entities to 'unavailable'.
 - When HA restarts; update all entities just after the connection is established.
 - Check network disconnects real-time.
+
+v.0.27 
+- adjustments on manifest 
 
 v.0.26
 - Corrected HA 110 breaking changes
