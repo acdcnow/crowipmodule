@@ -20,5 +20,5 @@ v.0.26
 v.0.27
 - Add the respository to HACS
 - changing HA 110 switchentity, binaryentity.
-v.0.28 TODO
+v.0.28 TODO NOT DONE SO FAR
 - When connection goes off; change all entities to 'unavailable'.
