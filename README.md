@@ -88,13 +88,11 @@ crowipmodule:
 
 
 Changelog:
-v.0.28 TODO (NOT DONE YET)
-- When connection goes off; change all entities to 'unavailable'.
+v.0.27
 - When HA restarts; update all entities just after the connection is established.
 - Check network disconnects real-time.
-
-v.0.27 
-- adjustments on manifest 
+- ESA waits until STATUS request
+- Added RL1 and RL2 Relays
 
 v.0.26
 - Corrected HA 110 breaking changes
