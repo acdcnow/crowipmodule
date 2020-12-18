@@ -163,7 +163,6 @@ class CrowIPModuleAlarm(CrowIPModuleDevice, alarm.AlarmControlPanelEntity):
             self.hass.data[DATA_CRW].send_keypress(str(code))
         else:
             self.hass.data[DATA_CRW].send_keypress(str(self._code))
-#            self.hass.data[DATA_CRW].arm_away()
 
     async def async_alarm_trigger(self, code=None):
         """Alarm trigger command. Will be used to trigger a panic alarm."""
