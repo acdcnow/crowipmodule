@@ -6,7 +6,7 @@ In order to get that module running you must ensure that the preconditions are f
 4: WebUi can be reached with IP adress that is given in the first Bootup via DHCP Server
    Password should be 12345678 if not changed by your installer company. 
 
-Running Home Assistant higher then release version 2020.12.0
+Running Home Assistant higher then release version 2021.1.5
 
 An setup example is given below
 
