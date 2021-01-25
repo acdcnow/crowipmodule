@@ -210,7 +210,6 @@ async def async_setup(hass, config):
 
     return True
 
-
 class CrowIPModuleDevice(Entity):
     """Representation of an Crow IP Module."""
 
