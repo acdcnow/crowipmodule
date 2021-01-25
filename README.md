@@ -12,7 +12,7 @@ That will be:
 - not having ANY SSH connection active to that IP Module (Firmware support just a single connection ) to SSH port 5002. 
 - WebUi can be reached with IP adress that is given in the first Bootup via DHCP Server.
 - set the IP adress to static in order to keep a fixed IP adress at any time.
-- running home assistant higher then release version 2020.12.0 (lower once are not support)
+- running home assistant higher then release version 2021.1.5 (lower once are not support)
 
 An setup example is given below:
 
