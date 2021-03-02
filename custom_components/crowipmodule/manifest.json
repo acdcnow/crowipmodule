@@ -6,6 +6,8 @@
         "pycrowipmodule==0.27"
       ],    
     "dependencies": [],
+    "version": "V0.27",
+    "config_flow": false,
     "codeowners": [
         "@acdcnow"
     ]
