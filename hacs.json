@@ -1,7 +1,7 @@
 {
   "name": "Crow Runner8/16 Ip",
   "content_in_root": false,
-  "documentation": "https://ww.github.com/acdcnow/crowipmodule/",
+  "documentation": "https://ww.github.com/acdcnow/crowipmodule",
   "issue_tracker": "https://ww.github.com/acdcnow/crowipmodule/issues",
   "domains": ["alarm_control_panel", "switch", "sensor", "binary_sensor"],  
   "homeassistant": "2021.4.5",
