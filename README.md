@@ -1,6 +1,6 @@
 Home Assistant Crow IP Module
 
-For Crow Runner 8/16 with IP Module and special Firmware running via SSH Running in Home Assistant Version 0.110 and higer
+For Crow Runner 8/16 with IP Module and special Firmware running via SSH Running in Home Assistant Version 2021.4.5 and higer
 
 Ensure that your Crow Runner IP Module is running the correct firmware. The standard firmware from Crow or AAP will NOT work with this version!!
 
@@ -11,7 +11,7 @@ In order to get that module running you must ensure that the preconditions are f
 -> not having ANY SSH connection active to that IP Module (Firmware support just a single connection ) to SSH port 5002.
 -> WebUi can be reached with IP adress that is given in the first Bootup via DHCP Server.
 -> set the IP adress to static in order to keep a fixed IP adress at any time.
--> running home assistant higher then release version 2021.3.2 (lower once are not support)
+-> running home assistant higher then release version 2021.4.5 (lower once are not support)
 
 An setup example is given below:
 In order to get that module running you must ensure that the preconditions are fulfilled.
@@ -92,32 +92,32 @@ crowipmodule:
       type: 'door'
 ```
 
-Changelog: v.0.27
+Changelog: v2.7
 When HA restarts; update all entities just after the connection is established.
 Check network disconnects real-time.
 ESA waits until STATUS request
 Added RL1 and RL2 Relays
 
-v.0.26
+v2.6
 Corrected HA 110 breaking changes
 SwitchDevice, BinarySensorDevice and AlarmControlPanel is deprecated,
 modify to extend SwitchEntity, BinarySensorEntity and AlarmControlPanelEntity
 Add the respository to HACS
 
-v.0.25
+v2.5
 Corrected HA 103 breaking changes made on alarm_control_panel.
 Outputs controlling and status corrected.
 
-v.0.24
+v2.4
 Removed sensor.area_a_keypad and added sensor.crow_alarm_system; this new sensor has all system related attributes only.
 Handle trigger based disconnection issue.
 Corrected some issues.
 
-v.0.23
+v2.3
 Corrected deepcopy dict, which results area_keypad device attributes to be the same as alarm_control_panel.
 Corrected alarm trigger updates of both area_keypad and alarm_control_panel.
 
-v.0.22
+v2.2
 System binary sensors are converted to alarm control panel device attributes.
 If 'code' configuration is missing in configuration.yaml, then keypad is on in Alarm Panel.
 'code' configuration is moved to 'areas' section for area specific code.
